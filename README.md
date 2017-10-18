@@ -1,1 +1,1 @@
-# reverse elements of stack
+# some functions worth checking 
