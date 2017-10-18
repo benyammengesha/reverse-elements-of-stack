@@ -25,7 +25,7 @@ int main()
 	cout << "    Enter five integers: " << endl;
 	cout << "the list you have put in the system is as follows" << endl;
 	list.print();
-	cout << "please enter the  number to  remove from the list" << endl;
+	cout << "please enter the  number to be removed from the list" << endl;
 
 	cin>> counter;
 	list.removeAll(counter);
