@@ -1,4 +1,4 @@
-  //a functtion that check whether a integer number is prime or not 
+  //a function that check whether an integer number is prime or not 
 #include <iostream>
 #include <math.h>
 
@@ -9,10 +9,10 @@ bool primeChecker(int number,int i=2){
 	if (number == i)
 		return 1;
 	 
-	 if  (number % i  == 0)
+	if  (number % i  == 0)
 		 
 		return  0;
-	 else
+	else
  
 	 return primeChecker( number,i++ );
 	
