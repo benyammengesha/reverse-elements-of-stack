@@ -1,4 +1,4 @@
-//ASSIGNMENT NO 6
+ 
 //PREPARED BY BENYAM MENGESHA
 #include <iostream>
 #include "linkedStackType.h"
@@ -25,7 +25,7 @@ int main(){
 		cout << tempStack.top() << " ";
 		tempStack.pop();
 	}
-	//Revese function is called to copy stack1 elements in stack2 revese order
+	//Revese function is called to copy stack1 elements in stack2 in revese order
 	stack1.reverseStack(stack2);
 	copyStack = stack2;
 	cout << endl;
